@@ -1,0 +1,22 @@
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: black !important;
+  color: white !important;
+}
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+  background-color: black !important;
+  color: white !important;
+}
+.dropdown-item {
+  transition: background-color 0.2s;
+}
+
+img {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img-hover:hover {
+    transition: 0.3s;
+    transform: scale(1.04);
+}
